@@ -35,9 +35,3 @@ for imagePath in paths.list_images(args["images"]):
 	if fm < args["threshold"]:
 		text = imagePath+" - Blurry: "+str(fm)
 		print(imagePath+" - Blurry: "+str(fm))
- 
-	# # show the image
-	cv2.putText(gray, "{}: {:.2f}".format(text, fm), (10, 30),
-		cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 255), 3)
-	cv2.imshow("Image", gray)
-	key = cv2.waitKey(0)
