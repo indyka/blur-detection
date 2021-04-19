@@ -7,10 +7,10 @@ This blur detection python script is the implementation result of this [tutorial
 * [imutils](https://pypi.python.org/pypi/imutils)
 
 ## How to use
-Make sure python and pip is installed. Then, install imutils and cv2.
+Make sure python and pip is installed. Then, install imutils and opencv-python.
 ```bash
 # install opencv-python
-pip install cv2
+pip install opencv-python
 # install imutils
 pip install imutils
 ```
